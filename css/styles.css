@@ -1,0 +1,25 @@
+.carousel-item {
+    height: 300px;            /* Set a fixed height for the carousel item */
+}
+
+.carousel-item img {
+    max-width: 80%;  /* Image will scale down to 80% of the carousel item's width */
+    height: auto;    /* Maintain aspect ratio */
+}
+.corousel-item:hover{
+    cursor: pointer;
+}
+body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
