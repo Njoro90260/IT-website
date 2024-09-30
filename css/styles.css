@@ -17,16 +17,31 @@ body {
     width: 100%;
     overflow: hidden;
 }
+.carousel {
+    height: 90vh; 
+}
 
 .carousel-item {
-    max-height: 400px; 
+    height: 100%;
 }
 
 .carousel-item img {
     width: 100%;  
-    height: auto;  
+    height: 100vh;  
     object-fit: contain;
+    object-position: center;
     border-radius: 5px; 
+}
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 50%;
 }
 
 .jumbotron {
@@ -52,20 +67,44 @@ body {
     padding: 1rem; 
     color: #f3f3f3; 
 }
-.web {
+.card {
     background-size: cover; 
     background-position: center;
-    color: white;
     border: none; 
     height: 200px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
 }
 
 .card-body {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+    height: 100%;
 }
-.card {
-    border-radius: 10px;
-}
+
 .products-body {
     background-color: #f3f3f3;
+    margin-top: 2rem;
+}
+.contacts {
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+a {
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
 }

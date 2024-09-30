@@ -8,6 +8,7 @@
     <title>Home - IT Solutions</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
 </head>
 
 <body>
@@ -35,15 +36,18 @@
         <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/laptop-1483974.jpg" class="d-block w-100" alt="Laptop for Engineering Students">
+                    <img src="images/globe-1849404.png" class="d-block w-100" alt="Laptop for Engineering Students" style="object-fit: cover;">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/ai-generated-7962673.jpg" class="d-block w-100" alt="IT Solutions Hero Image">
+                    <img src="images/robot-6654025.png" class="d-block w-100" alt="IT Solutions Hero Image">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/smart-home-2769210.jpg" class="d-block w-100" alt="Technology Background">
+                    <img src="images/pexels-mediahooch-14785828.png" class="d-block w-100" alt="Technology Background">
                 </div>
             </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-angle-down"></i>
         </div>
     </header>
 
@@ -62,6 +66,12 @@
     <!-- Link to local Bootstrap JS -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- <script src="js/carousel.js"></script> -->
+    <script>
+        // Optionally, make the arrow scroll to the next section
+        document.querySelector('.scroll-down').addEventListener('click', function () {
+            document.getElementById('next-section').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
 </body>
 
 </html>

@@ -7,11 +7,11 @@
     <title>Products & Services - IT Solutions</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
 </head>
 
 <body>
-    <header class="header">
-          <!-- Navbar -->
+    <!-- Header with Navbar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Home</a>
@@ -30,83 +30,118 @@
             </div>
         </div>
     </nav>
-    </header>
-  
+
+    <!-- Main Content -->
     <main class="products-body">
-        <div class="container mt-5">
-            <h2>Our Products & Services</h2>
-            <div class="row">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Products & Services</h2>
+            <div class="row g-4">
+                <!-- Card 1 -->
                 <div class="col-md-4">
-                    <div class="card mb-4 web" style="background-image: url('../images/web-design-3411373.jpg');">
-                        <div class="card-body">
-                            <h5 class="card-title">Web Development</h5>
-                            <p class="card-text">We build professional websites for businesses and individuals.</p>
+                    <a href="#">
+                        <div class="card" style="background-image: url('../images/web-design-3411373.jpg');">
+                            <div class="card-body">
+                                <h5 class="card-title">Web Development</h5>
+                                <p class="card-text">We build professional websites for businesses and individuals.</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
+
+                <!-- Card 2 -->
                 <div class="col-md-4">
-                    <div class="card mb-4 web" style="background-image: url('../images/cloud-5469737.jpg');">
-                        <div class="card-body">
-                            <h5 class="card-title">Cloud Hosting</h5>
-                            <p class="card-text">Reliable and scalable cloud hosting for your business needs.</p>
+                    <a href="#">
+                        <div class="card" style="background-image: url('../images/cloud-5469737.jpg');">
+                            <div class="card-body">
+                                <h5 class="card-title">Cloud Hosting</h5>
+                                <p class="card-text">Reliable and scalable cloud hosting for your business needs.</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
+
+                <!-- Card 3 -->
                 <div class="col-md-4">
-                    <div class="card mb-4 web" style="background-image: url('../images/ai-generated-8994400.jpg'); ">
-                        <div class="card-body">
-                            <h5 class="card-title">IT Consulting</h5>
-                            <p class="card-text">Our experts help you find the right IT solutions for your company.</p>
+                    <a href="#">
+                        <div class="card" style="background-image: url('../images/IT-consulting.jpg');">
+                            <div class="card-body">
+                                <h5 class="card-title">IT Consulting</h5>
+                                <p class="card-text">Our experts help you find the right IT solutions for your company.</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
+
+                <!-- Card 4 -->
                 <div class="col-md-4">
-                    <div class="card mb-4 web" style="background-image: url('../images/ai-generated-8702463.jpg');">
-                        <div class="card-body">
-                            <h5 class="card-title">Network Equipment</h5>
-                            <p class="card-text">Routers, switches, modems, and firewalls for secure and efficient networking</p>
+                    <a href="#">
+                        <div class="card" style="background-image: url('../images/network-equipment.jpg');">
+                            <div class="card-body">
+                                <h5 class="card-title">Network Equipment</h5>
+                                <p class="card-text">Routers, switches, modems, and firewalls for secure networking.</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
+
+                <!-- Card 5 -->
                 <div class="col-md-4">
-                    <div class="card mb-4 web" style="background-image: url('../images/hacker-8858353.png'); ">
-                        <div class="card-body">
-                            <h5 class="card-title">Cybersecurity Tools</h5>
-                            <p class="card-text">Antivirus software, firewalls, and encryption tools to protect sensitive data.</p>
+                    <a href="#">
+                        <div class="card" style="background-image: url('../images/hacker-8858353.png');">
+                            <div class="card-body">
+                                <h5 class="card-title">Cybersecurity Tools</h5>
+                                <p class="card-text">Antivirus software, firewalls, and encryption tools to protect data.</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
+
+                <!-- Card 6 -->
                 <div class="col-md-4">
-                    <div class="card mb-4 web">
-                        <div class="card-body">
-                            <h5 class="card-title">Data Backup Systems</h5>
-                            <p class="card-text">Backup hardware and software for automated data protection</p>
+                    <a href="#">
+                        <div class="card" style="background-image: url('../images/cloud-4828080_1280.jpg');">
+                            <div class="card-body">
+                                <h5 class="card-title">Data Backup Systems</h5>
+                                <p class="card-text">Backup hardware and software for automated data protection.</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
+
+                <!-- Card 7 -->
                 <div class="col-md-4">
-                    <div class="card mb-4 web">
-                        <div class="card-body">
-                            <h5 class="card-title">Data Backup Systems</h5>
-                            <p class="card-text">Our experts help you find the right IT solutions for your company.</p>
+                    <a href="#">
+                        <div class="card" style="background-image: url('../images/pexels-ekaterina-bolovtsova-6192117.jpg');">
+                            <div class="card-body">
+                                <h5 class="card-title">IT Accessories</h5>
+                                <p class="card-text">Keyboards, mice, docking stations, and monitors for workstations.</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
+
+                <!-- Card 8 -->
                 <div class="col-md-4">
-                    <div class="card mb-4 consulting">
-                        <div class="card-body">
-                            <h5 class="card-title">Mobile App Development</h5>
-                            <p class="card-text">Custom mobile apps for businesses to reach customers on iOS and Android platforms.</p>
+                    <a href="#">
+                        <div class="card" style="background-image: url('../images/samsung-1283938.jpg');">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile App Development</h5>
+                                <p class="card-text">Custom mobile apps for businesses on iOS and Android platforms.</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
+
+                <!-- Card 9 -->
                 <div class="col-md-4">
-                    <div class="card mb-4 consulting">
-                        <div class="card-body">
-                            <h5 class="card-title">Managed IT Services</h5>
-                            <p class="card-text">Comprehensive IT support including system monitoring, software updates, and issue resolution.</p>
+                    <a href="#">
+                        <div class="card" style="background-image: url('../images/pexels-rdne-6646770.jpg');">
+                            <div class="card-body">
+                                <h5 class="card-title">Managed IT Services</h5>
+                                <p class="card-text">Comprehensive IT support including system monitoring and updates.</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -117,7 +152,7 @@
         <p>&copy; 2024 IT Solutions. All Rights Reserved.</p>
     </footer>
 
-
+    <!-- Scripts -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
