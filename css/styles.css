@@ -1,10 +1,10 @@
 .carousel-item {
-    height: 300px;            /* Set a fixed height for the carousel item */
+    height: 400px;            /* Set a fixed height for the carousel item */
 }
 
 .carousel-item img {
-    max-width: 80%;  /* Image will scale down to 80% of the carousel item's width */
-    height: auto;    /* Maintain aspect ratio */
+    max-width: 80%;  
+    height: auto;    
 }
 .corousel-item:hover{
     cursor: pointer;
