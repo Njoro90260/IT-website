@@ -1,25 +1,71 @@
-.carousel-item {
-    height: 400px;            /* Set a fixed height for the carousel item */
+@font-face {
+    font-family: 'Concert_One';
+    src: url('fonts/ConcertOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.carousel-item img {
-    max-width: 80%;  
-    height: auto;    
-}
-.corousel-item:hover{
-    cursor: pointer;
-}
 body {
-    background-color: #fff;
+    background: linear-gradient(90deg, #e05f5f 0%, #db6868 50%, #e43c3c 100%);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: "Courier Prime", monospace;
 }
-main {
-    flex: 1;
+
+.header {
+    width: 100%;
+    overflow: hidden;
 }
-footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
+
+.carousel-item {
+    max-height: 400px; 
+}
+
+.carousel-item img {
+    width: 100%;  
+    height: auto;  
+    object-fit: contain;
+    border-radius: 5px; 
+}
+
+.jumbotron {
+    color: white;
+    font-size: 1.2rem; 
+    padding: 2rem; 
+}
+
+.navbar {
+    background-color: #ee6666; 
+}
+
+.navbar .nav-link {
+    color: #f3f3f3; 
+}
+
+.navbar .nav-link:hover {
+    color: #ffffff; 
+}
+
+.footer {
+    background-color: #ee6666; 
+    padding: 1rem; 
+    color: #f3f3f3; 
+}
+.web {
+    background-size: cover; 
+    background-position: center;
+    color: white;
+    border: none; 
+    height: 200px;
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.card {
+    border-radius: 10px;
+}
+.products-body {
+    background-color: #f3f3f3;
 }
