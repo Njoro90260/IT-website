@@ -1,5 +1,7 @@
 # IT Solutions Website
 
+**Note:** This is a template for an online shop showcasing various IT products and services. The shop does not currently exist, and this project is intended for demonstration purposes only.
+
 This repository contains the source code for an **IT Solutions Website**, designed to showcase products and services offered by an IT company. The website is built using **HTML**, **CSS**, **Bootstrap**, and **JavaScript**, featuring a responsive layout and a carousel with an interactive scroll-down arrow.
 
 ## Table of Contents
