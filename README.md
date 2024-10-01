@@ -13,7 +13,6 @@ This repository contains the source code for an **IT Solutions Website**, design
 - [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
