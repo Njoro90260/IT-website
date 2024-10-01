@@ -31,10 +31,10 @@ This repository contains the source code for an **IT Solutions Website**, design
 
 ## Installation
 
-1. Clone the repository:
-
+1. Clone the repository: 
    ```bash
-   git clone https://github.com/your-username/it-solutions-website.git
+   https://github.com/Njoro90260/IT-website.git
+
 2. Navigate to the project directory:
 
      ```bash
