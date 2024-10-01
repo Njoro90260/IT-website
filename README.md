@@ -41,7 +41,7 @@ This repository contains the source code for an **IT Solutions Website**, design
      ```bash
      cd it-solutions-website
     
-3. Install dependencies (Bootstrap, fontawesome)
+3. Install dependencies (Bootstrap, fontawesome) (optional).
 
      ```bash
      npm install
