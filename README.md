@@ -75,6 +75,16 @@ This repository contains the source code for an **IT Solutions Website**, design
       └── README.md                     # Project documentation
 
 
+## Screenshots
+Home Page.
+![Home Page.](https://github.com/user-attachments/assets/5bf1ab98-c960-4acc-ae1e-a3cef9c2ef86)
+
+
+Products Page.
+![Products and Services page.](https://github.com/user-attachments/assets/5a38196e-d54b-4bdd-a771-019a55dd5ab5)
+
+
+
   ## Contributing
 1. Fork the repository.
 2. 2. Create a new branch:
