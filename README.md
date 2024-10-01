@@ -57,25 +57,39 @@ This repository contains the source code for an **IT Solutions Website**, design
  to view the website.
 
  ## Project Structure
-    ```bash
-     .
-          ├── css
-          │   └── styles.css               # Custom CSS styles
-          ├── fontawesome
-          │   └── css
-          │       └── all.min.css           # Font Awesome icons
-          ├── images
-          │   └── various images            # Images used in the carousel and product cards
-          ├── node_modules
-          │   └── bootstrap                 # Bootstrap installed via npm
-          ├── js
-          │   └── main.js                   # JavaScript for the scroll arrow and other interactive features
-          ├── index.html                    # Home page
-          └── README.md                     # Project documentation
+
+      ```bash
+      .
+      ├── css
+      │   └── styles.css               # Custom CSS styles
+      ├── fontawesome
+      │   └── css
+      │       └── all.min.css           # Font Awesome icons
+      ├── images
+      │   └── various images            # Images used in the carousel and product cards
+      ├── node_modules
+      │   └── bootstrap                 # Bootstrap installed via npm
+      ├── js
+      │   └── main.js                   # JavaScript for the scroll arrow and other interactive features
+      ├── index.html                    # Home page
+      └── README.md                     # Project documentation
+
 
   ## Contributing
- 1. Fork the repository.
-2.Create a new branch (git checkout -b feature-branch).
-3. Commit your changes (git commit -m 'Add some feature').
-4. Push to the branch (git push origin feature-branch).
+1. Fork the repository.
+2. 2. Create a new branch:
+
+   ```bash
+   git checkout -b feature-branch
+
+3. 3. Commit your changes:
+
+   ```bash
+   git commit -m 'Add some feature'
+
+4. 4. Push to the branch:
+
+   ```bash
+   git push origin feature-branch
+
 5. Open a pull request.
